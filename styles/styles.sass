@@ -1,0 +1,281 @@
+// header
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap')
+$main-font: 'Montserrat', sans-serif
+$prymary-text-color: #0F3977
+$prymary-border-color: #2D81E4
+
+html,
+body
+    height: 100%
+body
+    font-family: $main-font
+    color: $prymary-text-color
+    height: 100%
+
+a
+    text-decoration: none
+.container
+    display: flex
+    flex-direction: column
+    margin: 0 auto
+    max-width: 1440px
+    height: 100%
+.head
+    // max-width: 1440px
+    display: flex
+    // width: 100%
+    justify-content: space-between
+    position: relative
+    box-sizing: border-box
+    font: $main-font
+    margin: 80px 0
+
+    a
+        color: $prymary-text-color
+
+.logo
+    font-family: $main-font
+    font-size: 28px
+    font-weight: 400
+    line-height: 34px
+    letter-spacing: 0em
+    text-align: center
+    width: 200px
+
+
+
+.main-menu
+    display: flex
+    overflow: hidden
+
+    a
+        margin-left: 32px
+        font-family: $main-font
+        font-size: 20px
+        font-weight: 400
+        line-height: 24px
+        letter-spacing: 0em
+        text-align: center
+    a:hover
+        color: $prymary-border-color
+    a:active
+        color: $prymary-text-color
+    .active
+        color: $prymary-border-color
+
+
+
+.subnavbtn
+    border: none
+    background-color: white
+    font-family: $main-font
+    font-size: 20px
+    font-weight: 400
+    line-height: 24px
+    letter-spacing: 0em
+    text-align: center
+    margin: 0
+    padding: 0
+
+.subnav
+    overflow: hidden
+
+.subnav-content
+    display: none
+    width: 500px
+    position: absolute
+    left: 0
+    width: 100%
+    z-index: 1
+.subnav-content-active
+    display: flex
+    flex-direction: column
+    margin-left: 500px
+    width: 500px
+
+    a
+        text-align: left
+        margin-top: 8px
+        font-family: $main-font
+        font-size: 20px
+        font-weight: 400
+        line-height: 24px
+        letter-spacing: 0em
+        color: $prymary-text-color
+    a:hover
+        color: $prymary-border-color
+    a:active
+        color: $prymary-text-color
+    .active
+        color: $prymary-border-color
+.subnav:hover,.subnavbtn:hover
+    color: $prymary-border-color
+    box-sizing: border-box
+
+    .subnav-content
+        display: flex
+        flex-direction: column
+        margin-left: 500px
+        width: 500px
+
+        a
+            text-align: left
+            margin-top: 8px
+            font-family: $main-font
+            font-size: 20px
+            font-weight: 400
+            line-height: 24px
+            letter-spacing: 0em
+            color: $prymary-text-color
+        a:hover
+            color: $prymary-border-color
+        a:active
+            color: $prymary-text-color
+        .active
+            color: $prymary-border-color
+
+.extra-menu
+    margin: 0
+    padding: 0
+
+//main index.html
+
+.main
+    display: flex
+    flex: 1 0 auto
+
+.about
+    max-width: 460px
+    margin-left: 160px
+    .about-h
+        font-family: $main-font
+        font-size: 32px
+        font-weight: 400
+        line-height: 39px
+        letter-spacing: 0em
+        text-align: center
+    .about-text
+        font-family: $main-font
+        font-size: 24px
+        font-weight: 400
+        line-height: 29px
+        letter-spacing: 0em
+        text-align: center
+
+//main about page
+
+.about-wrapper
+    display: flex
+    flex-direction: column
+    margin-left: 80px
+    width: 100%
+.main-about-sub
+    display: flex
+    justify-content: space-between
+.main-about-h1
+    font-family: $main-font
+    font-size: 30px
+    font-weight: 400
+    line-height: 39px
+    letter-spacing: 0em
+    text-align: center
+.main-about-text,.about-sub-text
+    font-family: $main-font
+    font-size: 24px
+    font-weight: 400
+    line-height: 29px
+    letter-spacing: 0em
+    text-align: left
+.about-sub-text
+    max-width: 800px
+
+//projects
+.projects-wrapper
+    display: flex
+    justify-content: space-around
+    width: 100%
+    align-items: center
+    margin-top: -80px
+.project
+    border: 3px solid $prymary-border-color
+    height: 420px
+    width: 320px
+    img
+        height: 346px
+        width: 315px
+.project-text
+    display: flex
+    flex-direction: column
+    align-items: center
+    span
+        font-family: $main-font
+        font-size: 24px
+        font-weight: 400
+        line-height: 29px
+        letter-spacing: 0em
+        text-align: center
+        color: #000
+
+
+//events
+.event
+    padding: 92px 32px
+    border-bottom: 3px solid $prymary-border-color
+    font-family: $main-font
+    font-size: 32px
+    font-weight: 400
+    line-height: 39px
+    letter-spacing: 0em
+    text-align: center
+    color: #000
+    height: 120px
+
+// contacts
+.contacts
+    display: flex
+    flex-direction: column
+.contact-text
+    font-family: $main-font
+    font-size: 20px
+    font-weight: 400
+    line-height: 24px
+    letter-spacing: 0em
+.contact-text:nth-child(3)
+    margin-top: 12px
+.contact-socials
+    display: flex
+    flex-direction: column
+    margin-top: 16px
+    a
+        font-family: $main-font
+        font-size: 20px
+        font-weight: 400
+        line-height: 24px
+        letter-spacing: 0em
+        color: $prymary-text-color
+        margin-bottom: 4px
+    a:hover
+        color: $prymary-border-color
+    a:active
+        color: $prymary-text-color
+
+
+//footer
+
+.footer
+    display: flex
+    justify-content: space-between
+    flex: 0 0 auto
+.socials
+    display: flex
+    align-items: center
+    span
+        margin-right: 16px
+    a
+        img
+            margin-right: 8px
+.adress
+    display: flex
+    align-items: center
+
+

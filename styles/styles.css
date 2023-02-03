@@ -1,0 +1,323 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/artemshevelev\/Desktop\/vr_hor_new_site\/styles\/styles\.sass}line{font-family:\000037}}
+html,
+body {
+  height: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/artemshevelev\/Desktop\/vr_hor_new_site\/styles\/styles\.sass}line{font-family:\0000310}}
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #0F3977;
+  height: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/artemshevelev\/Desktop\/vr_hor_new_site\/styles\/styles\.sass}line{font-family:\0000315}}
+a {
+  text-decoration: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/artemshevelev\/Desktop\/vr_hor_new_site\/styles\/styles\.sass}line{font-family:\0000317}}
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 1440px;
+  height: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/artemshevelev\/Desktop\/vr_hor_new_site\/styles\/styles\.sass}line{font-family:\0000323}}
+.head {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  box-sizing: border-box;
+  font: "Montserrat", sans-serif;
+  margin: 80px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/artemshevelev\/Desktop\/vr_hor_new_site\/styles\/styles\.sass}line{font-family:\0000333}}
+  .head a {
+    color: #0F3977; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/artemshevelev\/Desktop\/vr_hor_new_site\/styles\/styles\.sass}line{font-family:\0000336}}
+.logo {
+  font-family: "Montserrat", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: center;
+  width: 200px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/artemshevelev\/Desktop\/vr_hor_new_site\/styles\/styles\.sass}line{font-family:\0000347}}
+.main-menu {
+  display: flex;
+  overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/artemshevelev\/Desktop\/vr_hor_new_site\/styles\/styles\.sass}line{font-family:\0000351}}
+  .main-menu a {
+    margin-left: 32px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/artemshevelev\/Desktop\/vr_hor_new_site\/styles\/styles\.sass}line{font-family:\0000359}}
+  .main-menu a:hover {
+    color: #2D81E4; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/artemshevelev\/Desktop\/vr_hor_new_site\/styles\/styles\.sass}line{font-family:\0000361}}
+  .main-menu a:active {
+    color: #0F3977; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/artemshevelev\/Desktop\/vr_hor_new_site\/styles\/styles\.sass}line{font-family:\0000363}}
+  .main-menu .active {
+    color: #2D81E4; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/artemshevelev\/Desktop\/vr_hor_new_site\/styles\/styles\.sass}line{font-family:\0000368}}
+.subnavbtn {
+  border: none;
+  background-color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin: 0;
+  padding: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/artemshevelev\/Desktop\/vr_hor_new_site\/styles\/styles\.sass}line{font-family:\0000380}}
+.subnav {
+  overflow: hidden; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/artemshevelev\/Desktop\/vr_hor_new_site\/styles\/styles\.sass}line{font-family:\0000383}}
+.subnav-content {
+  display: none;
+  width: 500px;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  z-index: 1; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/artemshevelev\/Desktop\/vr_hor_new_site\/styles\/styles\.sass}line{font-family:\0000390}}
+.subnav-content-active {
+  display: flex;
+  flex-direction: column;
+  margin-left: 500px;
+  width: 500px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/artemshevelev\/Desktop\/vr_hor_new_site\/styles\/styles\.sass}line{font-family:\0000396}}
+  .subnav-content-active a {
+    text-align: left;
+    margin-top: 8px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: #0F3977; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/artemshevelev\/Desktop\/vr_hor_new_site\/styles\/styles\.sass}line{font-family:\00003105}}
+  .subnav-content-active a:hover {
+    color: #2D81E4; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/artemshevelev\/Desktop\/vr_hor_new_site\/styles\/styles\.sass}line{font-family:\00003107}}
+  .subnav-content-active a:active {
+    color: #0F3977; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/artemshevelev\/Desktop\/vr_hor_new_site\/styles\/styles\.sass}line{font-family:\00003109}}
+  .subnav-content-active .active {
+    color: #2D81E4; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/artemshevelev\/Desktop\/vr_hor_new_site\/styles\/styles\.sass}line{font-family:\00003111}}
+.subnav:hover, .subnavbtn:hover {
+  color: #2D81E4;
+  box-sizing: border-box; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/artemshevelev\/Desktop\/vr_hor_new_site\/styles\/styles\.sass}line{font-family:\00003115}}
+  .subnav:hover .subnav-content, .subnavbtn:hover .subnav-content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 500px;
+    width: 500px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/artemshevelev\/Desktop\/vr_hor_new_site\/styles\/styles\.sass}line{font-family:\00003121}}
+    .subnav:hover .subnav-content a, .subnavbtn:hover .subnav-content a {
+      text-align: left;
+      margin-top: 8px;
+      font-family: "Montserrat", sans-serif;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0em;
+      color: #0F3977; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/artemshevelev\/Desktop\/vr_hor_new_site\/styles\/styles\.sass}line{font-family:\00003130}}
+    .subnav:hover .subnav-content a:hover, .subnavbtn:hover .subnav-content a:hover {
+      color: #2D81E4; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/artemshevelev\/Desktop\/vr_hor_new_site\/styles\/styles\.sass}line{font-family:\00003132}}
+    .subnav:hover .subnav-content a:active, .subnavbtn:hover .subnav-content a:active {
+      color: #0F3977; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/artemshevelev\/Desktop\/vr_hor_new_site\/styles\/styles\.sass}line{font-family:\00003134}}
+    .subnav:hover .subnav-content .active, .subnavbtn:hover .subnav-content .active {
+      color: #2D81E4; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/artemshevelev\/Desktop\/vr_hor_new_site\/styles\/styles\.sass}line{font-family:\00003137}}
+.extra-menu {
+  margin: 0;
+  padding: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/artemshevelev\/Desktop\/vr_hor_new_site\/styles\/styles\.sass}line{font-family:\00003143}}
+.main {
+  display: flex;
+  flex: 1 0 auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/artemshevelev\/Desktop\/vr_hor_new_site\/styles\/styles\.sass}line{font-family:\00003147}}
+.about {
+  max-width: 460px;
+  margin-left: 160px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/artemshevelev\/Desktop\/vr_hor_new_site\/styles\/styles\.sass}line{font-family:\00003150}}
+  .about .about-h {
+    font-family: "Montserrat", sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/artemshevelev\/Desktop\/vr_hor_new_site\/styles\/styles\.sass}line{font-family:\00003157}}
+  .about .about-text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/artemshevelev\/Desktop\/vr_hor_new_site\/styles\/styles\.sass}line{font-family:\00003167}}
+.about-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-left: 80px;
+  width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/artemshevelev\/Desktop\/vr_hor_new_site\/styles\/styles\.sass}line{font-family:\00003172}}
+.main-about-sub {
+  display: flex;
+  justify-content: space-between; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/artemshevelev\/Desktop\/vr_hor_new_site\/styles\/styles\.sass}line{font-family:\00003175}}
+.main-about-h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 39px;
+  letter-spacing: 0em;
+  text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/artemshevelev\/Desktop\/vr_hor_new_site\/styles\/styles\.sass}line{font-family:\00003182}}
+.main-about-text, .about-sub-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/artemshevelev\/Desktop\/vr_hor_new_site\/styles\/styles\.sass}line{font-family:\00003189}}
+.about-sub-text {
+  max-width: 800px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/artemshevelev\/Desktop\/vr_hor_new_site\/styles\/styles\.sass}line{font-family:\00003193}}
+.projects-wrapper {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  align-items: center;
+  margin-top: -80px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/artemshevelev\/Desktop\/vr_hor_new_site\/styles\/styles\.sass}line{font-family:\00003199}}
+.project {
+  border: 3px solid #2D81E4;
+  height: 420px;
+  width: 320px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/artemshevelev\/Desktop\/vr_hor_new_site\/styles\/styles\.sass}line{font-family:\00003203}}
+  .project img {
+    height: 346px;
+    width: 315px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/artemshevelev\/Desktop\/vr_hor_new_site\/styles\/styles\.sass}line{font-family:\00003206}}
+.project-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/artemshevelev\/Desktop\/vr_hor_new_site\/styles\/styles\.sass}line{font-family:\00003210}}
+  .project-text span {
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #000; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/artemshevelev\/Desktop\/vr_hor_new_site\/styles\/styles\.sass}line{font-family:\00003221}}
+.event {
+  padding: 92px 32px;
+  border-bottom: 3px solid #2D81E4;
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 39px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #000;
+  height: 120px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/artemshevelev\/Desktop\/vr_hor_new_site\/styles\/styles\.sass}line{font-family:\00003234}}
+.contacts {
+  display: flex;
+  flex-direction: column; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/artemshevelev\/Desktop\/vr_hor_new_site\/styles\/styles\.sass}line{font-family:\00003237}}
+.contact-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/artemshevelev\/Desktop\/vr_hor_new_site\/styles\/styles\.sass}line{font-family:\00003243}}
+.contact-text:nth-child(3) {
+  margin-top: 12px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/artemshevelev\/Desktop\/vr_hor_new_site\/styles\/styles\.sass}line{font-family:\00003245}}
+.contact-socials {
+  display: flex;
+  flex-direction: column;
+  margin-top: 16px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/artemshevelev\/Desktop\/vr_hor_new_site\/styles\/styles\.sass}line{font-family:\00003249}}
+  .contact-socials a {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: #0F3977;
+    margin-bottom: 4px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/artemshevelev\/Desktop\/vr_hor_new_site\/styles\/styles\.sass}line{font-family:\00003257}}
+  .contact-socials a:hover {
+    color: #2D81E4; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/artemshevelev\/Desktop\/vr_hor_new_site\/styles\/styles\.sass}line{font-family:\00003259}}
+  .contact-socials a:active {
+    color: #0F3977; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/artemshevelev\/Desktop\/vr_hor_new_site\/styles\/styles\.sass}line{font-family:\00003265}}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  flex: 0 0 auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/artemshevelev\/Desktop\/vr_hor_new_site\/styles\/styles\.sass}line{font-family:\00003269}}
+.socials {
+  display: flex;
+  align-items: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/artemshevelev\/Desktop\/vr_hor_new_site\/styles\/styles\.sass}line{font-family:\00003272}}
+  .socials span {
+    margin-right: 16px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/artemshevelev\/Desktop\/vr_hor_new_site\/styles\/styles\.sass}line{font-family:\00003275}}
+  .socials a img {
+    margin-right: 8px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/artemshevelev\/Desktop\/vr_hor_new_site\/styles\/styles\.sass}line{font-family:\00003277}}
+.adress {
+  display: flex;
+  align-items: center; }
+
+/*# sourceMappingURL=styles.css.map */
